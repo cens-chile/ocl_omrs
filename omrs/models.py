@@ -223,7 +223,7 @@ class ConceptNumeric(models.Model):
     units = models.CharField(max_length=50, blank=True)
     # ConceptNumeric.precise was renamed to allow_decimal in Platform 2.2 (TRUNK-5333)
     #allow_decimal = models.BooleanField()
-    allow_decimal = models.BooleanField(db_column='precise')
+    allow_decimal = models.BooleanField(db_column='allow_decimal')
     display_precision = models.IntegerField()
 
     class Meta:

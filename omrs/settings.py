@@ -12,10 +12,10 @@ https://docs.djangoproject.com/en/1.6/ref/settings/
 import os
 DATABASES = {
     'default': {
-        'NAME': 'openmrs',
+        'NAME': 'ciel_20220521',
         'ENGINE': 'django.db.backends.mysql',
         'USER': 'root',
-        'HOST': 'db',
+        'HOST': '0.0.0.0',
         'PORT': '3306',
         'PASSWORD': 'openmrs',
     }
