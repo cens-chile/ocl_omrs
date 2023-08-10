@@ -138,21 +138,11 @@ class OclOpenmrsHelper(object):
          'owner_type': 'org', 'owner_id': 'PIH'},
         {'omrs_id': 'Liberia MoH', 'ocl_id': 'LiberiaMOH',
          'owner_type': 'org', 'owner_id': 'PIH'},
-<<<<<<< HEAD
-        {'omrs_id': 'UCUM', 'ocl_id': 'UCUM',
-         'owner_type': 'org', 'owner_id': 'Regenstrief'},
-        {'omrs_id': 'OMOP RxNORM Extension', 'ocl_id': 'OMOP-RxNORM',
-         'owner_type': 'org', 'owner_id': 'OHDSI'},
-        {'omrs_id': 'HL-7 MVX code', 'ocl_id': 'MVX',
-            'owner_type': 'org', 'owner_id': 'HL7'}
-
-=======
         {'omrs_id': 'OMOP RxNORM Extension', 'ocl_id': 'OMOP-RxNORM',
             'owner_type': 'org', 'owner_id': 'OHDSI'},
         {'omrs_id': 'OMOP Extension', 'ocl_id': 'OMOP-Extension',
             'owner_type': 'org', 'owner_id': 'OHDSI'}
  
->>>>>>> 038786e63f631e5863aa90be1af49fbb3b83ddb4
         # Added for AMPATH dictionary import
         # {'owner_type':'org', 'owner_id':'WHO', 'omrs_id':'ICD-10', 'ocl_id':'ICD-10-WHO'},
         # {'owner_type':'org', 'owner_id':'CIEL', 'omrs_id':'MCL/CIEL', 'ocl_id':'CIEL'},
